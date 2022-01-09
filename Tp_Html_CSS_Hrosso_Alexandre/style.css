@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Roboto:wght@100&display=swap');
+body {
+	background-color: #8C713F !important;
+}
+.navbar {
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(208,213,217,1) 16%, rgba(176,185,191,1) 32%, rgba(140,113,63,1) 48%, rgba(176,185,191,1) 63%, rgba(208,213,217,1) 80%, rgba(255,255,255,1) 96%);
+	opacity: 0.9;
+	height: 150px;
+	transition: 0.7s;
+}
+.header-icons {
+	margin: 30px 700px;
+	display: flex;
+	justify-content: space-between;
+	max-width: 80%;
+	padding-left: 100px;
+	
+}
+h1 {
+	text-align: center;
+	font-family: 'Ephesis', cursive;
+	
+	
+}
+
+.titre {
+	color: #fff;
+	text-align: center;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+p {
+	color: black; 
+	text-shadow: #fff 0.1em 0.1em 0.2em;
+}
+img {
+	width: 600px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+.logo {
+	position: absolute;
+	width: 180px;
+	color: black;
+	justify-content: space-between;
+	margin: -12px auto;
+}
+.Logo {
+	position: absolute;
+	width: 180px;
+	color: black;
+	justify-content: space-between;
+	margin: -60px auto;
+}
+
+#conteneur_bouton {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin: 20px 20px;
+}
+.bouton {
+	background-color: #fff;
+	color: black;
+	font-weight: bold;
+	font-family: 'Ephesis', cursive;
+	padding: 10px 40px;
+	border-radius: 3px;
+	cursor: pointer;
+	box-shadow: -10px 0 10px 0 #fff;
+	text-decoration: none;
+}
+.bouton:hover {
+	background-color: black;
+	color: #8C713F;
+	box-shadow: -10px 0 10px 0 black;
+}
+
+footer {
+	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(208,213,217,1) 16%, rgba(176,185,191,1) 32%, rgba(140,113,63,1) 48%, rgba(176,185,191,1) 63%, rgba(208,213,217,1) 80%, rgba(255,255,255,1) 96%);
+	color: #fff;
+	opacity: 0.9;
+	height: 150px;
+	transition: 0.7s;
+	text-align: center;
+	color: black;
+	text-shadow: #fff 0.1em 0.1em 0.2em;
+}
+.footer-icons {
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+	max-width: 80%;
+	align-items: center;
+	padding: 3px;
+	
+}
+.network {
+	font-size: 2em;
+	color: black;
+	border: 1px solid;
+	box-shadow: -2.5px 0 2.5px 0;
+	padding: 30px 45px;
+	z-index: -1 !important;
+	border-radius: 50%;
+}
+.network:hover {
+	color: #8C713F;
+}
+#principal {
+	background: url(./img/H2x1_NSwitch_ARKSurvivalEvolved.jpg) fixed no-repeat 50% 50%;
+	background-size: cover;
+	text-size: 4em;
+	color: #fff;
+	
+}
+#texte {
+	display: flex;
+	Align-items: center;
+	Justify-content: center;
+}
+
+.item1 {
+	border: solid 1px black;
+	margin: 10px 0 10px 0;
+	color: black;
+	text-align: center;
+}
+.item2 {
+	border: solid 1px black;
+	margin: 10px 0 10px 0;
+	color: black;
+	text-align: center;
+	margin-left: 10px;
+}
+.item3 {
+	margin: 10px 0 10px 0;
+	color: black;
+	text-shadow: #fff 0.1em 0.1em 0.2em;
+	text-align: center;
+	
+}
+h3{
+	color: black;
+	text-shadow: #fff 0.1em 0.1em 0.2em;
+}
